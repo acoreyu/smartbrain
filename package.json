@@ -19,8 +19,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    // it used to be like this, but has changed
-    // "start": "react-scripts start",
     "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
