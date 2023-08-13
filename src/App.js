@@ -104,7 +104,7 @@ class App extends Component {
   .then(response => response.json()) 
        .then(response => {
            if (response) {
-            fetch('https://evening-spire-01506-01f8f28ec7e1.herokuapp.com/', {
+            fetch('https://evening-spire-01506-01f8f28ec7e1.herokuapp.com/image', {
              method: 'put',
              headers: {'Content-Type': 'application/json'},
              body: JSON.stringify({id: this.state.user.id})
